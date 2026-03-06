@@ -73,10 +73,10 @@ table_1_player_stats_20260306_120000.txt
 
 ### Future Improvements
 
-Support for JavaScript-rendered content (Selenium)
+- Support for JavaScript-rendered content (Selenium)
 
-Direct integration with the NBA stats API
+- Direct integration with the NBA stats API
 
-Automatic dataset cleaning
+- Automatic dataset cleaning
 
-Visualization of stats
+- Visualization of stats
