@@ -40,34 +40,36 @@ Run the script:
 
 The program will:
 
-Fetch the NBA stats webpage
+- Fetch the NBA stats webpage
 
-Detect tables on the page
+- Detect tables on the page
 
-Display a preview of each table
+- Display a preview of each table
 
 Ask if you want to save tables to files
 
 Example save options:
 
-Save mode? (a=all / n=none / p=ask per table)
+```Save mode? (a=all / n=none / p=ask per table)
 Output
 
 If saving is enabled, files will be stored in:
 
-/output
+```/output```
 
 Example files:
 
-table_1_player_stats_20260306_120000.csv
+```table_1_player_stats_20260306_120000.csv
 table_1_player_stats_20260306_120000.txt
-Notes
+```
 
-Some NBA stats data is loaded dynamically using JavaScript, so not all tables may be available through basic HTML scraping.
+### Notes
 
-In those cases, using the NBA Stats API or Selenium may provide more complete data.
+- Some NBA stats data is loaded dynamically using JavaScript, so not all tables may be available through basic HTML scraping.
 
-Future Improvements
+- In those cases, using the NBA Stats API or Selenium may provide more complete data.
+
+### Future Improvements
 
 Support for JavaScript-rendered content (Selenium)
 
