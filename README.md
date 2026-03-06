@@ -50,7 +50,8 @@ Ask if you want to save tables to files
 
 Example save options:
 
-```Save mode? (a=all / n=none / p=ask per table)
+```
+ Save mode? (a=all / n=none / p=ask per table)
 ```
 Output
 
